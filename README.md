@@ -1,8 +1,7 @@
 # helix-helpx
 
-![](https://img.shields.io/badge/edit%20in-gitpod.io-blue.svg)
-
-[![Gitpod](https://img.shields.io/badge/edit%20in-gitpod.io-blue.svg)](javascript:window.location='https://gitpod.io#' + window.location)
+[![GitPod](https://img.shields.io/badge/edit%20in-gitpod.io-blue.svg)](https://codecov.io/gh/adobe/helix-cli)
+[![Gitpod](https://img.shields.io/badge/edit%20in-gitpod.io-blue.svg)](https://gitpod.io)
 
 helix-helpx is the first web site rendered leveraging the [Helix](https://github.com/adobe/project-helix) platform and following the [hypermedia rendering pipepline](https://github.com/adobe/hypermedia-pipeline).
 
