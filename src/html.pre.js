@@ -162,6 +162,9 @@ async function fetchNavPayload(owner, repo, ref, logger) {
 async function pre(payload, action) {
   const { logger, secrets, request: actionReq } = action;
 
+  console.log(payload);
+  console.log(action);
+
   try {
     if (!payload.resource) {
       logger.debug('html-pre.js - Payload has no resource, nothing we can do');
