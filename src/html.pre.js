@@ -164,7 +164,7 @@ async function pre(payload, action) {
 
   logger.info(payload);
   logger.info(action);
-  console.log(payload, action);
+  console.log(action.request.headers);
 
   try {
     if (!payload.content) {
