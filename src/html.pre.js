@@ -162,8 +162,8 @@ async function fetchNavPayload(owner, repo, ref, logger) {
 async function pre(payload, action) {
   const { logger, secrets, request: actionReq } = action;
 
-  console.log(payload);
-  console.log(action);
+  logger.log(payload);
+  logger.log(action);
 
   try {
     if (!payload.resource) {
